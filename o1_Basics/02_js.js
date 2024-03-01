@@ -49,6 +49,6 @@ let stringNumber = String(Number)
 
 console.log(typeof(stringNumber))
 
-
+console.log("2"===2)
 
 
