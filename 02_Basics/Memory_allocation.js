@@ -12,3 +12,16 @@ console.log(otherName)
 // All Non-Primitive Type Use Heap Or Stack Memory allcation.
 // It Creates Pass By Referance. [ Heap ]
 
+let UserOne =
+{
+    email : "User@gmail.com",
+    upiid : "User@ybl"
+}
+
+let UserTwo = UserOne
+
+// UserTwo.email = "Prem@gmail.com"
+
+// Change In Both
+console.log(UserOne)
+console.log(UserTwo)
