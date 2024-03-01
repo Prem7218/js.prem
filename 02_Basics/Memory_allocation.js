@@ -20,7 +20,7 @@ let UserOne =
 
 let UserTwo = UserOne
 
-// UserTwo.email = "Prem@gmail.com"
+ UserTwo.email = "Prem@gmail.com"
 
 // Change In Both
 console.log(UserOne)

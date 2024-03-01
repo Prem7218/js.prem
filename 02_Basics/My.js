@@ -3,4 +3,6 @@ const repoCount = 100
 
 // Console.log(name + repocount + "Value") This Syntax Is Not Good.
 
-console.log(`Hello My name is ${name}ans my repo count is ${repoCount}`)
+// Below Is Good Writen Code Follow Below Syntax.
+console.log(`Hello My name is ${name} and my repo count is ${repoCount}`)
+
