@@ -58,10 +58,20 @@ const user = {
 
 // If We Use Curly {} Brace Then Always Get Use The Return Keyword. :- 
 
+// Below Function Is Return Explicit Return :-
+// const addTwo = (num1,num2) => (num1 + num2)
 
-const addTwo = (num1,num2) =>
 
+// Object Always Get Correct To Return In Curly Braces.
+const addTwo = (num1,num2) =>({username: "Prem"})
 console.log(addTwo(1,2))
+
+
+// const myArray = [2,4,6,8,10]
+
+// myArray.forEach(() => ())
+// myArray.forEach(() => {})
+
 
 
 
