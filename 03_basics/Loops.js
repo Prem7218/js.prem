@@ -40,3 +40,52 @@ map.set(2,"Buldana")
 //     console.log(i," ",m)
 // }
 
+
+// For Each loops Comes With Iterative, index , arr;
+const coding = ['Js', 'Ruby', 'CPP', 'JAVA', "Go Long"]
+
+// coding.forEach( function (item) {
+//     console.log(item)
+// } )
+
+// coding.forEach( (item) => {
+//     console.log(item)
+// })
+
+// function printme(item) {
+//     console.log(item);
+// }
+
+// coding.forEach(printme)
+
+// coding.forEach((i,index,arr) => {
+//     console.log(i,index,coding)
+// })
+
+
+// Storing Obj In Array.
+const myCoding = [
+    {
+        lname: 'JavaScript',
+        lfile: "JS"
+    },
+    {
+       lname: "Java",
+       lfile: "JAVA"
+    },
+    {
+        lname: 'CPP',
+        lfile: 'C++'
+    },
+    {
+        lname: 'Python',
+        lfile: 'Py'
+    }
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.lname)
+})
+
+
+
