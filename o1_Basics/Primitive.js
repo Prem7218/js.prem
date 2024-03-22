@@ -8,7 +8,7 @@
 // 1] Number :-
 
     const Number = 100
-    const SolNumber = 100.33
+    const SolNumber = 100.50
 
 // 2] Boolean 
     const isLogged = false
